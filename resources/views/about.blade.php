@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main>
+<main class="d-flex justify-content-center align-items-center">
     <h1>
         Chi siamo
     </h1>

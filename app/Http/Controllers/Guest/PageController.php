@@ -26,4 +26,15 @@ class PageController extends Controller
 
         return view('movies', compact('movies'));
     }
+
+    public function movieDetail($id){
+
+        $movie = Movie::find($id);
+
+        if(is_null($movie)){
+            abort(404, 'film non presente nel database');
+        }
+
+        return view('movie-detail', compact('movie'));
+    }
 }
