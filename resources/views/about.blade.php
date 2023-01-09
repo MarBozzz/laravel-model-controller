@@ -3,7 +3,9 @@
 @section('content')
 
 <main>
-   Chi siamo
+    <h1>
+        Chi siamo
+    </h1>
 </main>
 
 @endsection
